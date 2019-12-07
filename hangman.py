@@ -55,7 +55,7 @@ wordlist = load_words()
 def validate(prompt_input, prompt_error_length, prompt_error_not_letter, prompt_error_not_in_list, letters_guessed,
              warnings_remaining):
     must_continue = True
-    assumption = input(prompt_input).replace(' ', '')
+    assumption = input(prompt_input).replace(' ', '').lower()
     while must_continue:
         if assumption == '*':
             break
