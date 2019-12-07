@@ -1,7 +1,7 @@
 # Problem Set 2, hangman.py
 # Name: Pobiedimska Sonya
 # Collaborators: none
-# Time spent: started 07/12/19
+# Time spent: started on 07/12/19 at 11.30, ended up on 07/12/19 at 14.30
 
 
 # Hangman Game
