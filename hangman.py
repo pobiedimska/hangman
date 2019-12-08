@@ -73,7 +73,7 @@ def validate(prompt_input, prompt_error_length, prompt_error_not_letter, prompt_
         if warnings_remaining <= 0:
             assumption = ''
             break
-        assumption = input(prompt_input)
+        assumption = input(prompt_input).replace(' ', '').lower()
     return assumption
 
 
